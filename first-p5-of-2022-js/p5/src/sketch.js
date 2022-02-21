@@ -1,7 +1,9 @@
 function setup() {
   createCanvas(400, 400);
   background(125);
-}
+} 
+
+// # - [Script] -END-
 
 function draw() {
   // TODO: Create a class that classes, such as ElementShape and ElementPosition, can inherit methods and properties from. Add a method that randomizes a number. Add color properties and methods to a class or the main class.
@@ -17,7 +19,7 @@ function draw() {
    * Not repeat myself and continue finding ways to let statements be
    * 'one and done'.
    * 
-   * Outsource work to a class with relevent ties to its core functionality.
+   * Outsource work to a class with relevant ties to its core functionality.
    * 
    * My reasoning: I'm not sure yet if you can create more than one constructor
    * per class. If I find that you can, I will then know that my other
@@ -38,12 +40,11 @@ function draw() {
    * what 'real' classes do in the world of programming languages such as 
    * Java or C#?
    * 
-   * I haven't yet realized whether I fully understand them or not.
+   * I haven't yet concluded whether I fully understand them or not.
    * 
    * P.S. Why do they say 'classes in JavaScript are merely syntactic surgar
    * and not the same as OOP languages like Java and C#?
    * 
-   * I see JavaScript going a lot further in the future.
    */
 
   class ElementShape {
@@ -53,7 +54,7 @@ function draw() {
       this.h = h;
       this.w = w;
     }
-    // TODO: Create methods to change
+    // TODO: Create methods to change (?)
   }
 
   class ElementPosition {
@@ -65,7 +66,7 @@ function draw() {
   }
 
   // const colors = function(red, blue, green, alpha) {
-
+    //  ---
   // },
   //   randomX = random(0, 400),
   //   randomY = random(0, 400),
